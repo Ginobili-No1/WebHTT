@@ -1,0 +1,306 @@
+
+
+.col{
+  padding: 0;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+#carousel-example-generic{
+    box-sizing: inherit;
+    
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+
+    _background-attachment: fixed;
+}
+ #advantage{
+	width: 100%; 
+	height: 100%;
+
+  }
+
+  #advantage>.mid{
+	position: absolute;
+    margin-top: 7%;
+	margin-left: -138px;
+	margin-right: auto;
+	text-align: center;
+    left: 50%;
+  }
+  #advantage>.mid>.text1{
+	  font-size: 30px;
+	  color: white;
+	  letter-spacing: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #advantage>.mid>.text2{
+	font-size: 20px;
+	color: orange;
+	letter-spacing: 3px;
+  }
+ .adv li:hover{
+    margin-top: -1%;
+    transition: margin-top 0.3s ease;
+
+ }
+ 
+    
+   
+ .adv_text{
+	  margin-top: 1.5vh;
+	text-align: center;
+	font:1.5vh Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+	color: white;
+  }
+  
+.adv_icon{
+	border-radius: 5%;
+	border: 1px solid white;
+	padding: 6px;
+  } 
+  
+
+  #advantage>ul{
+  display: inline-flex;
+  position: absolute;
+  margin: 20% auto;
+
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-direction: row;
+
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  min-width: 1300px;
+  }
+
+
+
+#solid{
+  margin-bottom: 5%;
+}
+#solid>.col-md-10{
+  border-bottom: 1px solid #c0c0c0;
+}
+#propagate>.col-md-10>.row>.col-md-6>p>span{
+  border-bottom: 2px solid orangered;
+}
+
+/* 第二个轮播图 */
+
+
+
+#movebody{
+  width: 100%;
+}
+
+
+
+@media (max-width: 768px){
+  
+}
+
+#orange{
+    display: flex;
+  margin-top:5%;
+  color: white;
+  font-size: 1rem;
+  justify-content:space-around;
+}
+
+#orange .orangeLeft{
+  width: 100%
+  
+}
+#orange .orangeLeft img{
+  width: 100%
+}
+#orange .orangeRight{
+  width: 100%;
+  
+}
+#orange .orangeRight img{
+  width: 100%
+}
+#orange .orangeM{
+  width: 1rem;
+}
+
+
+
+#footer h5{
+  letter-spacing: 5px;
+  margin-bottom: -1rem;
+
+}
+#footer h6{
+  font-size: 0.8rem;
+  color: #C0C0C0;
+  margin-bottom: -0.8rem;
+}
+.text3{
+  font-size: 20px;
+	color: orange;
+  letter-spacing: 3px;
+
+}
+.text4{
+  font-size: 30px;
+  color: black;
+  letter-spacing: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.nav3{
+  width: 100%;
+ 
+}
+.nav3>ul{
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  width: 100%;
+ 
+}
+.nav3>ul>li{
+  margin-bottom: 5%;
+  display: inline-flex;
+  width: 100%;
+  background-color: #f8f9fa ;
+  padding: 3%;
+  border-bottom: 2px solid transparent;
+}
+.nav3>ul>li>a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin: auto;
+  padding: 0;
+  font: 8px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+  flex-direction: column;
+  color: black;
+  font-size: 1rem;
+  
+}
+.nav3>ul>li>a>p:nth-child(2){
+  margin-top: 10%;
+}
+.nav3>ul>li:hover{
+  border-bottom: 2px solid orange;
+  transition: border-bottom 0.3s linear;
+
+}
+.nav3>ul>li>a:hover{
+  text-decoration: none
+
+}
+
+.sild{
+    width: 4rem;
+    height: 0.06rem;
+    background-color: #c0c0c0;
+
+
+}
+
+.index_text{
+  margin-bottom:2rem !important;
+  font-size: 2rem;
+
+}
+.pcIndexIcon{
+  display: flex;
+  
+}
+.pcIndexIcon ul li{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.mobileIndexIcon{
+  display: none;
+  margin-top: 3rem;
+}
+
+
+@media only screen and (max-width:767px) {
+  
+    #orange{
+        display: none;
+    }
+    #advantage{
+        display: none;
+    }
+    .index_text{
+        display: none;
+    }
+    .nav3>ul>li{
+      background-color: transparent;
+    }
+    .text4{
+      font-size: 20px;
+
+    }
+   
+
+
+    .pcIndexIcon{
+      display: none;
+    }
+    .mobileIndexIcon{
+      display: flex;
+    }
+    
+.mobileIndexIcon .row{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.mobileIndexIcon .left{
+  flex:0 0 45%;
+  max-width: 45%;
+}
+.mobileIndexIcon .right{
+  flex:0 0 45%;
+  max-width: 45%;
+}
+.mobileIndexIcon .middle{
+  flex:0 0 10%;
+  max-width: 10%;
+}
+
+.mobileIndexIconText{
+  color: black;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+}
+}
+

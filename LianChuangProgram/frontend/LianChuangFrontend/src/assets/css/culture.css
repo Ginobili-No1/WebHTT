@@ -1,0 +1,208 @@
+
+body {
+    background-color: #fff;
+}
+
+
+#particulars_nav {
+    background-color: white;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
+}
+
+
+
+
+
+#particulars_nav ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#particulars_nav ul li {
+    height: 50px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    
+    padding-top: 3%;
+    
+}
+
+
+#particulars_nav ul li:hover {
+    transition: all ease 0.2s;
+}
+
+
+
+
+#particulars_nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#particulars .father {
+    width: 100%;
+    display: flex;
+    z-index: 99;
+    justify-content: center;
+
+    padding: 0 auto;
+
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+
+.particulars_img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.show3 {
+    position: relative;
+    z-index: 999;
+    display: none;
+    transition: all ease 0.2s;
+    width: 100%;
+}
+
+.show2 {
+    position: relative;
+    /*z-index:999;*/
+    display: none;
+    transition: all ease 0.2s;
+    width: 100%;
+}
+
+.show1 {
+    position: relative;
+    z-index: 999;
+    transition: all ease 0.2s;
+    width: 100%;
+}
+
+
+
+
+
+
+.father p {
+    color: #3f3f3f
+
+}
+.show1 p {
+    color: #3f3f3f
+}
+
+.title-top {
+    font-size: 1.5rem;
+    width: 10%;
+    border-bottom: 1px solid orangered;
+}
+
+.culture-text {
+    font-size: 0.8rem;
+
+
+}
+
+.honor_img .row {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.honor_img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.honor_text {
+    font-size: 1.5rem;
+    width: 10rem;
+    border-bottom: 2px solid orangered;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.cultureRes{
+    margin-top: 5rem;
+}
+.introduce_img {
+    width: 100%;
+}
+.honor_img .img_9{
+    display: none;
+}
+.honor_img .img_9 img{
+    width: 100%;
+}
+
+
+#cultureParticulars{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    ul li > a {
+        margin: 0px;
+    }
+
+    .cultureRes {
+        flex-flow: column-reverse;
+    }
+
+    .honor_img .row{
+        display: none;
+    }
+    .honor_img .img_9{
+        display: block;
+        width: 100%;
+
+}
+
+#cultureParticulars{
+    margin-top: 3rem;
+}
+
+#cultureParticulars img{
+    width: 100%;
+}
+.title-top{
+    width:25%;
+}
+.honor_text{
+    width: 33%;
+}
+#particulars_nav ul li{
+    padding-top: 0.5rem;
+    height: 45px;
+}
+   
+
+
+
+}
+
+
+
+
+
+
+
+
+
